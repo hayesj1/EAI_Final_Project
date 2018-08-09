@@ -50,6 +50,6 @@ Required Libraries (Arduino-Side):
 + Needle-nose Pliers (preferably 90-degree angled)
 
 ##### Setup
-Follow these tutorials, they're a little outdated, so your millage my vary:
+Follow these tutorials, they're a little outdated, so your mileage my vary:
 + Arduino Setup: <https://www.youtube.com/watch?v=gFDe3nqLHl4&t=195s>
 + Lego Gearbox Setup: <https://youtu.be/h-5FmGfYzRs>
