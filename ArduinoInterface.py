@@ -15,7 +15,8 @@ COLLABORATORS = "Josh Beaulieu"
 class ArduinoInterface:
 
 	def __init__(self):
-		self._serial = "/dev/cu.usbmodem1421"
+		# You might need to configure this. Use the Arduino IDE to find out which serial port Arduino is on
+		self._serial = "/dev/cu.usbmodem1411"
 
 		# Initialize an ArduinoBoard instance.  This is where you specify baud rate and
 		# serial timeout.  If you are using a non ATmega328 board, you might also need

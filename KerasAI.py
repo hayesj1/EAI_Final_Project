@@ -14,7 +14,7 @@ from keras.applications.xception import Xception
 from keras.callbacks import History
 from keras.optimizers import Adam
 from keras.models import model_from_json
-from keras.layers import, Dense
+from keras.layers import Dense
 from keras.preprocessing.image import ImageDataGenerator, DirectoryIterator
 
 seed = 42
@@ -199,7 +199,7 @@ if __name__ == '__main__':
 	model_json = model.to_json()
 	with open(f'{path}/models/test_model.json', 'w') as json_file:
 		json_file.write(model_json)
-	serialize weights to HDF5
+	#serialize weights to HDF5
 	model.save_weights(f'{path}/models/test_model.h5')
 	print("Saved model to disk")
 	
