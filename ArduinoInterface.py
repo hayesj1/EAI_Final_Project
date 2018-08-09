@@ -8,15 +8,13 @@ from serial import SerialException
 
 from KerasAI import load, seed, normalizeImg
 
-PROJ_NAME = "Cargo Classifier For Real Time Train Routing"
-NAME = "Jacob Hayes"
-COLLABORATORS = "Josh Beaulieu"
+_PROJ_NAME = "Cargo Classifier For Real Time Train Routing"
+_NAME = "Jacob Hayes"
+_COLLABORATORS = "Josh Beaulieu"
 
 class ArduinoInterface:
-
 	def __init__(self):
-		# You might need to configure this. Use the Arduino IDE to find out which serial port Arduino is on
-		self._serial = "/dev/cu.usbmodem1411"
+		self._serial = "/dev/cu.usbmodem1411" # You might need to configure this. Use the Arduino IDE to find out which serial port Arduino is on
 
 		# Initialize an ArduinoBoard instance.  This is where you specify baud rate and
 		# serial timeout.  If you are using a non ATmega328 board, you might also need
